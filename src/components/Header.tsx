@@ -18,7 +18,7 @@ export function Header() {
     <header id="main-header">
       <div id="title">
         <img src="src/assets/logo.jpg" alt="Logo ReactFood" />
-        <h1>REACTFOOD</h1>
+        <h1>QuickBite</h1>
       </div>
       <button className="text-button" onClick={handleChangeLocation}>
         Cart ({cartItems.length})
