@@ -10,7 +10,7 @@ Explore the world of culinary delights with QuickBite - a convenient app for dis
 
 ## 🚀 Live Demo
 
-**Live Preview** ➡️ [Demo](#)
+**Live Preview** ➡️ [Demo](https://quick-bite-seven.vercel.app/)
 
 ---
 
