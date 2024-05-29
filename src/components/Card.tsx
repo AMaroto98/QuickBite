@@ -12,7 +12,7 @@ export function Card({ name, price, description, image, id }: IFood) {
   return (
     <div className="meal-item" id={`${id}`}>
       <article>
-        <img src={`backend/${image}`} alt={`${name}`} />
+        <img src={`${image}`} alt={`${name}`} />
         <h3>{name}</h3>
         <div className="meal-item-description">
           <div className="meal-item-price">${price}</div>
