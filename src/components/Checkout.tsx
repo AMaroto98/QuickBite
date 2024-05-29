@@ -30,20 +30,30 @@ export function Checkout() {
         <div className="control">
           <p>Total Amount: ${totalPrice} </p>
 
-          <label htmlFor="name">Full Name</label>
-          <input type="text" required minLength={3} maxLength={25} />
+          <div className="input-group">
+            <label htmlFor="name">Full Name</label>
+            <input type="text" required minLength={3} maxLength={25} />
+          </div>
 
-          <label htmlFor="email">Email Address</label>
-          <input type="email" required />
+          <div className="input-group">
+            <label htmlFor="email">Email Address</label>
+            <input type="email" required />
+          </div>
 
-          <label htmlFor="name">Street</label>
-          <input type="text" required minLength={5} maxLength={55} />
+          <div className="input-group">
+            <label htmlFor="street">Street</label>
+            <input type="text" required minLength={5} maxLength={55} />
+          </div>
 
-          <label htmlFor="postalCode">Postal Code</label>
-          <input type="text" required minLength={3} />
+          <div className="input-group">
+            <label htmlFor="postalCode">Postal Code</label>
+            <input type="text" required minLength={3} />
+          </div>
 
-          <label htmlFor="city">City</label>
-          <input type="text" required minLength={3} />
+          <div className="input-group">
+            <label htmlFor="city">City</label>
+            <input type="text" required minLength={3} />
+          </div>
         </div>
         <div className="modal-actions">
           <button
